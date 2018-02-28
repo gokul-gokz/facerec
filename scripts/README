@@ -1,0 +1,6 @@
+Make sure that the path to haarcascade_frontalface_default.xml file and att_face directory are set correctly.
+This path varys from system to system and should be set inside face_recog.py file. The path needs to be set using
+the following variable. Find them inside face_recog.py and modify it:
+
+fn_haar = '/home/user-name/workspace_name/src/face_rec/scripts/haarcascade_frontalface_default.xml'
+fn_dir = '/home/user-name/workspace_name/src/face_rec/scripts/att_faces'
