@@ -1,4 +1,12 @@
 # create_samples.py
+#
+#This script creates training samples from input images. Path to the images should be provided when calling this scripts.
+#Example : python create_sample.py /home/user/roger
+#
+#The above command will create a directory 'roger'
+#inside att_faces. This directory will contain the training samples created from images inside /home/user/roger
+#Note : The number of training samples created will not always be equal to the number of images in 'roger'. This depends on ability of classifier to 
+#identify faces in the given image. If no face was detected, then no training sample for that image will be created.
 import cv2, sys, numpy, os
 size = 2
 count = 0
