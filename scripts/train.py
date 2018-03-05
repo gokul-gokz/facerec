@@ -23,7 +23,7 @@ pin=sorted([int(n[:n.find('.')]) for n in os.listdir(path)
 print("\n\033[94mThe program will save 50 samples. \
 Move your head around to increase while it runs.\033[0m\n")
 
-# The program loops until it has 20 images of the face.
+# The program loops until it has 50 images of the face.
 count = 0
 pause = 0
 count_max = 50
